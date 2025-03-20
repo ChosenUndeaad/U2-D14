@@ -31,6 +31,7 @@ const loadImages = (immagini) => {
                     <div class="card-body">
                         <h5 class="card-title">${photo.photographer}</h5>
                         <p class="card-text">Foto da Pexels</p>
+                        <p>ID: ${photo.id}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <a href="${photo.url}" target="_blank" class="btn btn-sm btn-outline-primary">Vedi su Pexels</a>
                             <button class="btn btn-sm btn-outline-danger hide-btn">Hide</button>
