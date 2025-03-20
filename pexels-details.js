@@ -14,6 +14,8 @@ const imgDetail = (photoId) => {
         throw new Error("Errore HTTP");
       }
     })
+    .then((data) => {})
+
     .catch((error) =>
       console.error("Errore nel caricamento dei dettagli dell'immagine:", error)
     );
